@@ -12,3 +12,10 @@ Aplikace využívá databázi pro ukládání dat o kartách:
 Aplikace umožňuje:
 - **Hru pexeso**: Hráč otáčí karty a hledá páry.
 - **Administraci obsahu**: Admin může nahrávat nové obrázky a spravovat existující karty
+  ### 3. Specifikace uživatelských rolí a oprávnění
+1. **Anonymní uživatel**:
+   - Hraje hru bez nutnosti registrace.
+2. **Admin**:
+   - Přístup do administrační sekce.
+   - Možnost nahrávat nové obrázky pro karty.
+   - Správa databáze karet.
