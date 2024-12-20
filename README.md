@@ -19,3 +19,10 @@ Aplikace umožňuje:
    - Přístup do administrační sekce.
    - Možnost nahrávat nové obrázky pro karty.
    - Správa databáze karet.
+### 4. Uživatelské grafické rozhraní
+- **Domovská stránka**:
+  - Tlačítko "Hrát" pro zahájení hry.
+- **Herní stránka**:
+  - Mřížka karet (karty mají obrázky na rubu a při otočení zobrazují líc).
+  - Počet pokusů a skóre zobrazené na vrchu stránky.
+- 
