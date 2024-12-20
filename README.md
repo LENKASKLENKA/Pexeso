@@ -1,28 +1,31 @@
-# Pexeso - Memory Game
+# Pexeso
 
 ## Funkční specifikace
+Použité technologie
+1. **HTML**: Pro základní strukturu stránek.
+2. **CSS**: Pro vizuální design.
+3. **JavaScript (pexeso.js)**: Pro logiku hry a interaktivitu.
+Soubory
+index.html - Hlavní HTML soubor obsahující strukturu uživatelského rozhraní.
+style.css - Stylování hry, včetně skrytí a zobrazení částí.
+pexeso.js - Logika hry, včetně Local Storage
+Použití
+- **Spuštění hry**: Načtení projektu
+Stáhněte si všechny soubory projektu a uložte je do jednoho adresáře. Ujistěte se, že všechny cesty k souborům jsou správně propojeny.
+klikněte na "Hrát".
+- **Administrace**: do složky Obr nahrajte nové obrázky pro karty.
+Hra Pexeso
+Režim pro jednoho hráče.
+Míchání karet při každém spuštění hry.
+Sledování skóre během hry.
+Stav hry (skóre, otočené karty, aktuální hráč) se automaticky ukládá do Local Storage.
+Uživatel může kdykoliv pokračovat ve hře z místa, kde skončil.
+Otočte karty kliknutím. Cílem je najít všechny dvojice.
+Hru můžete restartovat tlačítkem "Restartovat" nebo se vrátit do menu pomocí "Zpět do menu".
 
-### 1. Datový model
-Aplikace využívá databázi pro ukládání dat o kartách:
-- **Tabulka Karty**:
-  - `id`: Jedinečný identifikátor karty.
-  - `image_path`: Cesta k obrázku, který karta reprezentuje.
-  - `pair_id`: ID páru (každá karta má svého "dvojníka").
-  ### 2. Charakteristika funkcionalit aplikace
-Aplikace umožňuje:
-- **Hru pexeso**: Hráč otáčí karty a hledá páry.
-- **Administraci obsahu**: Admin může nahrávat nové obrázky a spravovat existující karty
-  ### 3. Specifikace uživatelských rolí a oprávnění
-1. **Anonymní uživatel**:
-   - Hraje hru bez nutnosti registrace.
-2. **Admin**:
-   - Přístup do administrační sekce.
-   - Možnost nahrávat nové obrázky pro karty.
-   - Správa databáze karet.
-### 4. Uživatelské grafické rozhraní
-- **Domovská stránka**:
-  - Tlačítko "Hrát" pro zahájení hry.
-- **Herní stránka**:
-  - Mřížka karet (karty mají obrázky na rubu a při otočení zobrazují líc).
-  - Počet pokusů a skóre zobrazené na vrchu stránky.
-- 
+ Další možnosti rozšíření
+Více herních režimů: Přidat možnost hry pro dva hráče.
+Vylepšené rozhraní: Animace a zvukové efekty.
+Ukládání více her: Umožnit uložení a načtení více různých her.
+Tabulka skóre: Ukládání výsledků jednotlivých her do Local Storage.
+
